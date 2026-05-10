@@ -1,2 +1,1 @@
-# the-hidden-system
-THE HIDDEN SYSTEM is my central operating system for building books, frameworks, prompts, research, and publishing workflows. This repository organizes every stage of my writing and KDP production process, helping me create scalable intellectual assets, AI-assisted systems, and long-term publishing infrastructure.
+Added initial README.md file for AI Books System project. This README explains the idea of building a smart book production pipeline powered by AI. It describes inputs, engines, and outputs, showing how the system transforms a single idea into a complete publishing workflow ready for KDP. The file includes English summary and Arabic detailed explanation for clarity.
