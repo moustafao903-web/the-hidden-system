@@ -216,5 +216,108 @@ A weak outline produces a weak book. Refine until:
 
 
 
+<!-- 03_Cover_Engine.md -->
+# 03_Cover_Engine
+
+## Version
+v2.0
+
+## Status
+Active
+
+## Purpose
+Define a **commercially powerful cover strategy** that maximizes Amazon KDP visibility and reader conversion.
+
+## Scope
+- Creates the **visual direction** and design brief
+- Ensures cover fits genre, promise, and market
+- Does not produce final artwork unless connected to design tools
+
+## Receives From
+- Title Engine output
+- Book title + subtitle
+- Genre
+- Target reader profile
+- Core promise
+- Market positioning
+- Series identity
+
+## Passes To
+- Formatting Engine
+- Marketing Controller
+- External designer or AI design tool
+
+---
+
+## Core Logic
+1. **Promise Translation** → Cover must visually signal the book’s core promise.  
+2. **Market Fit** → Align with genre conventions and Amazon thumbnail behavior.  
+3. **Authority & Clarity** → Instantly communicate credibility and value.  
+4. **Thumbnail Optimization** → Design must remain clear at small sizes.  
+5. **Series Consistency** → Maintain recognizable branding across titles.
+
+---
+
+## Inputs
+- Title + subtitle
+- Genre conventions
+- Target reader expectations
+- Core promise
+- Market positioning
+- Series branding
+- Visual tone preference (serious, playful, inspirational)
+
+---
+
+## Operating Rules
+- Cover must **match the book’s promise**  
+- Cover must **fit genre expectations**  
+- Prioritize **clarity, authority, and commercial appeal**  
+- Ensure **thumbnail readability**  
+- Avoid random or decorative imagery  
+- Keep aligned with **series identity**
+
+---
+
+## Output
+- Cover concept (1–2 sentences)  
+- Visual direction (style, imagery)  
+- Color palette suggestion  
+- Typography direction  
+- Front cover brief  
+- Back cover direction  
+- Design prompt (for AI or designer)  
+- Negative directions (what to avoid)
+
+---
+
+## Quality Gates
+- ✅ Clear at thumbnail size  
+- ✅ Matches genre expectations  
+- ✅ Communicates authority and promise  
+- ✅ Competitive in Amazon marketplace  
+- ✅ Consistent with series branding  
+
+---
+
+## Common Failure Modes
+- Overcomplicated design  
+- Weak thumbnail readability  
+- Poor genre fit  
+- Random imagery with no promise link  
+- Decorative but ineffective visuals  
+- Mismatch between cover and content  
+
+---
+
+## Revision Notes
+The cover must **sell the book before it’s opened**. Refine until it is:  
+- Clear  
+- Market-fit  
+- Emotionally compelling  
+- Commercially competitive
+
+
+
 
 
