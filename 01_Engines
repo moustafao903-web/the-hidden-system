@@ -319,5 +319,114 @@ The cover must **sell the book before it’s opened**. Refine until it is:
 
 
 
+<!-- 04_Keywords_Engine.md -->
+# 04_Keywords_Engine
+
+## Version
+v2.0
+
+## Status
+Active
+
+## Purpose
+Develop a **strategic keyword system** for Amazon KDP discoverability and buyer conversion.
+
+## Scope
+- Identifies search behavior and buyer intent  
+- Defines keyword sets for metadata and marketing  
+- Does not write descriptions or book content
+
+## Receives From
+- Title Engine output
+- Book title + subtitle
+- Core idea
+- Reader type
+- Category
+- Market angle
+- Series positioning
+
+## Passes To
+- Description Engine
+- Marketing Controller
+- Amazon publishing metadata
+
+---
+
+## Core Logic
+1. **Relevance** → Keywords must match actual book content.  
+2. **Buyer Intent** → Focus on terms readers use when ready to purchase.  
+3. **Category Fit** → Align with Amazon categories and subcategories.  
+4. **Search Behavior** → Use reader language, not academic phrasing.  
+5. **SEO Balance** → Optimize discoverability without keyword stuffing.
+
+---
+
+## Inputs
+- Book title + subtitle  
+- Core idea / promise  
+- Reader type and pain points  
+- Market category  
+- Search intent (problem-solving, inspiration, how-to)  
+- Series positioning  
+
+---
+
+## Operating Rules
+- Keywords must be **relevant and authentic**  
+- Avoid irrelevant or misleading terms  
+- Focus on **buyer intent phrases**  
+- Avoid keyword stuffing  
+- Prioritize **discoverability + commercial relevance**  
+- Ensure alignment with Amazon category rules  
+
+---
+
+## Output
+- Primary keyword (main discovery term)  
+- Secondary keywords (supporting terms)  
+- Search phrases (long-tail queries)  
+- Backend keyword set (Amazon metadata)  
+- Category suggestions (primary + secondary)  
+- Reader-language variations (how readers phrase searches)
+
+---
+
+## Quality Gates
+- ✅ Keywords relevant to book content  
+- ✅ Support buyer intent and conversion  
+- ✅ Fit Amazon search behavior  
+- ✅ Aligned with correct category/subcategory  
+- ✅ Free from spam-like or unrelated terms  
+
+---
+
+## Common Failure Modes
+- Irrelevant keywords  
+- Too broad or vague terms  
+- Weak buyer intent focus  
+- Keyword stuffing  
+- Poor category alignment  
+- No commercial relevance  
+
+---
+
+## Evaluation Checklist
+- Does the keyword set **mirror reader search behavior**?  
+- Does it **support buyer intent** (ready-to-buy language)?  
+- Is it **aligned with Amazon categories**?  
+- Does it avoid **spam or stuffing**?  
+- Would it make the book **discoverable and competitive**?  
+
+---
+
+## Revision Notes
+Strong keywords = strong discoverability. Refine until:  
+- Keywords are precise  
+- Buyer intent is clear  
+- Category fit is optimal  
+- Metadata is commercially competitive
+
+
+
 
 
