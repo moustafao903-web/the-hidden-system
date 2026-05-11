@@ -12,3 +12,6 @@ echo "2. One-Person Leverage Machine" >> "$OUT"
 echo "" >> "$OUT"
 echo "- [$TIMESTAMP] AI generate (stub): sample results appended to $OUT" >> "$EVENTS"
 echo "Stub generation complete. Results in $OUT"
+
+chmod +x scripts/ai_generate_stub.sh
+./scripts/ai_generate_stub.sh
