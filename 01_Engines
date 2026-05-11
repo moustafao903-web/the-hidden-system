@@ -1,34 +1,83 @@
-01_Engines/01_Title_Engine.md
-Purpose
-Inputs
-Output
-Rules
+# 01_Title_Engine
 
-01_Engines/02_Outline_Engine.md
-Purpose
+## Purpose
+Generate, evaluate, and refine commercially strong book titles for Amazon KDP.
+
+## Inputs
+- Book topic
+- Reader pain
+- Desired transformation
+- Market category
+- Tone
+- Core idea
+- Emotional angle
+
+## Core Logic
+Generate multiple title directions based on emotional tension, market positioning, and transformation promise.
+
+## Rules
+- The title must be easy to remember
+- The title must imply transformation
+- The title should create curiosity
+- The subtitle must clarify the promise
+- Avoid generic business wording
+
+## Output
+- Main title
+- Subtitle
+- Alternative title variations
+- Series positioning angle
+
+## Evaluation
+- Clarity score
+- Curiosity score
+- Market strength score
+- Brand compatibility score
+
+## Revision Notes
+A weak title weakens the entire book.
+
+# 02_Outline_Engine
+
+## Purpose
 Define the full structure of the book before writing starts.
-Inputs
-Book idea
-Target reader
-Core promise
-Angle (business / psychology / systems / AI)
-Output
-Full chapter list
-Chapter purpose for each chapter
-Logical flow of progression
-Final book skeleton
-Rules
-No writing content
-Only structural thinking
-Each chapter must serve a transformation step
-No repetition between chapters
-Keep the structure clear and scalable
 
-01_Engines/03_Cover_Engine.md
+## Inputs
+- Book idea
+- Target reader
+- Core promise
+- Market angle
+- Book title
+
+## Core Logic
+Build a logical transformation journey for the reader from problem to outcome.
+
+## Rules
+- No full prose writing
+- Only structural thinking
+- Each chapter must serve one transformation step
+- No repetition between chapters
+- Keep the structure clear and scalable
+
+## Output
+- Full chapter list
+- Chapter purpose for each chapter
+- Logical flow of progression
+- Final book skeleton
+
+## Evaluation
+- Flow quality
+- Structural clarity
+- Transformation consistency
+- Reader progression strength
+
+## Revision Notes
+The structure should feel inevitable and psychologically progressive.
+
 # 03_Cover_Engine
 
 ## Purpose
-Create the cover direction and cover brief for the book.
+Create the cover direction and design brief for the book.
 
 ## Inputs
 - Title
@@ -37,6 +86,15 @@ Create the cover direction and cover brief for the book.
 - Target reader
 - Main promise
 - Market position
+
+## Core Logic
+Translate the book promise into a commercially attractive visual identity.
+
+## Rules
+- The cover must match the book promise
+- The cover must fit the market
+- Do not design randomly
+- Focus on clarity, authority, and commercial appeal
 
 ## Output
 - Cover concept
@@ -47,17 +105,19 @@ Create the cover direction and cover brief for the book.
 - Back cover direction
 - Design prompt if needed
 
-## Rules
-- The cover must match the book promise
-- The cover must fit the market
-- Do not design randomly
-- Focus on clarity, authority, and commercial appeal
+## Evaluation
+- Visual clarity
+- Market fit
+- Thumbnail readability
+- Authority perception
 
-01_Engines/04_Keywords_Engine.md
+## Revision Notes
+The cover should communicate value before the reader opens the book.
+
 # 04_Keywords_Engine
 
 ## Purpose
-Generate and manage keyword strategy for KDP discoverability.
+Generate and manage keyword strategy for Amazon KDP discoverability.
 
 ## Inputs
 - Book title
@@ -67,12 +127,8 @@ Generate and manage keyword strategy for KDP discoverability.
 - Category
 - Market angle
 
-## Output
-- Primary keyword
-- Secondary keywords
-- Search phrases
-- Backend keyword set
-- Category suggestions
+## Core Logic
+Identify commercially relevant search behavior and buyer intent.
 
 ## Rules
 - Keywords must match the book content
@@ -80,87 +136,246 @@ Generate and manage keyword strategy for KDP discoverability.
 - Focus on buyer intent
 - Keep the set commercially useful
 
-05_Writing_Engine.md
-Writing voice
-Tone
-Chapter structure
-Hook rule
-Micro-scenario rule
-Framework rule
-Paragraph length
-Density rule
-Closing principle
+## Output
+- Primary keyword
+- Secondary keywords
+- Search phrases
+- Backend keyword set
+- Category suggestions
 
-06_Description_Engine.md
-Hook
-Problem
-Promise
-Why this book
-What the reader will learn
-Short description version
-Long description version
-Call to action
+## Evaluation
+- Search relevance
+- Competition strength
+- Buyer intent quality
+- Category alignment
 
-07_Author_Intro_Engine.md
-Title page
-Copyright page
-Dedication optional
-Introduction
-Opening of Chapter 1
-First sample pages
+## Revision Notes
+Good keywords improve discoverability, not just traffic.
 
-08_Amazon_Preview_Engine.md
-Opening introduction
-Author positioning
-Author bio
-What the reader should expect
-Why the book matters now
-Tone for the front matter
-Title page
-Copyright page
-Dedication optional
-Introduction
-Opening of Chapter 1
-First sample pages
+# 05_Writing_Engine
 
-09_Marketing_Controller.md
-Title check
+## Purpose
+Generate high-retention, high-density book content aligned with the series philosophy.
 
-Outline check
+## Inputs
+- Chapter goal
+- Reader transformation
+- Tone
+- Framework
+- Core argument
 
-Cover check
+## Core Logic
+Build addictive, structured, insight-dense writing that balances philosophy, practicality, and momentum.
 
-Keywords check
+## Rules
+- Use strong opening hooks
+- Use contrarian insights when relevant
+- Include micro-scenarios
+- Keep paragraphs concise
+- Prioritize intellectual compression
+- End chapters with architectural principles
 
-Writing check
+## Output
+- Chapter draft
+- Hooks
+- Framework sections
+- Micro-scenarios
+- Quote-worthy lines
+- Closing principle
 
-Introduction check
+## Evaluation
+- Retention strength
+- Clarity
+- Signal density
+- Quote potential
+- Reader momentum
 
-Preview check
+## Revision Notes
+The writing must feel fast, dense, intelligent, and scalable.
 
-Description check
+# 06_Description_Engine
 
-Market fit score
+## Purpose
+Generate commercially optimized Amazon book descriptions.
 
-Final verdict
+## Inputs
+- Book title
+- Core promise
+- Reader pain
+- Transformation outcome
+- Market category
 
-Revision needed
+## Core Logic
+Convert curiosity and pain into desire and purchase intent.
 
+## Rules
+- Start with a strong hook
+- Focus on transformation
+- Avoid bloated language
+- Maintain high readability
+- Balance authority and accessibility
 
-10_Formatting_Engine.md
+## Output
+- Short description
+- Long description
+- Hook section
+- Reader promise
+- Call to action
 
-Chapter spacing
+## Evaluation
+- Emotional pull
+- Clarity
+- Conversion potential
+- Readability
 
-Paragraph spacing
+## Revision Notes
+The description should sell transformation, not information.
 
-Bold/italic rules
+# 07_Author_Intro_Engine
 
-Breaks between sections
+## Purpose
+Create the author introduction and front-facing identity of the book.
 
-Front matter order
+## Inputs
+- Author positioning
+- Series philosophy
+- Reader expectations
+- Book purpose
 
-Back matter order
+## Core Logic
+Establish trust, authority, and alignment with the reader.
 
-Export rules
+## Rules
+- Keep the tone authentic
+- Focus on relevance
+- Avoid exaggerated credibility claims
+- Build immediate connection
 
-Final formatting checklist
+## Output
+- Short author bio
+- Long author bio
+- Introduction section
+- Why this book exists
+- Reader alignment message
+
+## Evaluation
+- Trust level
+- Relevance
+- Authority perception
+- Reader connection
+
+## Revision Notes
+The introduction should make the reader trust the journey.
+
+# 08_Amazon_Preview_Engine
+
+## Purpose
+Optimize the first visible pages of the book for Amazon preview conversion.
+
+## Inputs
+- Introduction
+- Opening chapter
+- Front matter
+- Hook sections
+
+## Core Logic
+Maximize retention and curiosity within the first visible pages.
+
+## Rules
+- The opening must create momentum
+- Avoid slow introductions
+- Build immediate relevance
+- Maintain psychological tension
+
+## Output
+- Optimized opening pages
+- Preview flow structure
+- First chapter opening
+- Sample-page sequence
+
+## Evaluation
+- Hook survival strength
+- Reader retention
+- Curiosity intensity
+- Momentum quality
+
+## Revision Notes
+The preview must create continuation pressure.
+
+# 09_Marketing_Controller
+
+## Purpose
+Evaluate the commercial and strategic quality of the entire book system.
+
+## Inputs
+- Title
+- Outline
+- Cover
+- Keywords
+- Writing
+- Description
+- Preview pages
+
+## Core Logic
+Audit every layer of the book for market strength, positioning, and scalability.
+
+## Rules
+- Evaluate objectively
+- Prioritize commercial viability
+- Identify weak structural points
+- Maintain brand consistency
+
+## Output
+- Title evaluation
+- Cover evaluation
+- Keyword evaluation
+- Writing evaluation
+- Market fit score
+- Weakness report
+- Final verdict
+
+## Evaluation
+- Commercial strength
+- Brand consistency
+- Reader alignment
+- Scalability potential
+
+## Revision Notes
+A strong system compounds across every layer.
+
+# 10_Formatting_Engine
+
+## Purpose
+Prepare the book for professional publishing and reader-friendly formatting.
+
+## Inputs
+- Manuscript
+- Front matter
+- Back matter
+- Chapter structure
+
+## Core Logic
+Create clean, readable, commercially professional formatting.
+
+## Rules
+- Maintain visual consistency
+- Keep spacing readable
+- Use clear hierarchy
+- Optimize for Kindle readability
+
+## Output
+- Chapter formatting
+- Front matter structure
+- Back matter structure
+- Export-ready formatting
+- Final formatting checklist
+
+## Evaluation
+- Readability
+- Visual consistency
+- Formatting cleanliness
+- Publishing readiness
+
+## Revision Notes
+Professional formatting increases perceived authority and trust.
+
