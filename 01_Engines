@@ -1,381 +1,219 @@
 # 01_Title_Engine
 
+<!-- 01_Title_Engine.md -->
+# 01_Title_Engine
+
+## Version
+v2.0
+
+## Status
+Active
+
 ## Purpose
-Generate, evaluate, and refine commercially strong book titles for Amazon KDP.
+Generate, evaluate, and refine **high‑impact, commercially strong book titles** optimized for Amazon KDP visibility and reader conversion.
+
+## Scope
+This engine covers:
+- Main title creation
+- Subtitle refinement
+- Market fit validation
+- Series consistency
+
+It does **not** handle book content writing or cover design.
+
+## Receives From
+- Book idea
+- Target reader profile
+- Core promise / transformation
+- Market positioning angle
+- Series identity
+
+## Passes To
+- Outline Engine
+- Cover Engine
+- Keywords Engine
+- Description Engine
+
+---
+
+## Core Logic
+1. **Clarity** → Title must be understood in one glance.  
+2. **Curiosity** → Spark interest without being vague.  
+3. **Transformation** → Signal the benefit or change promised.  
+4. **Market Fit** → Align with Amazon categories and reader expectations.  
+5. **Series Identity** → Maintain consistent branding across titles.
+
+---
 
 ## Inputs
-- Book topic
-- Reader pain
+- Book topic / niche
+- Reader pain point
 - Desired transformation
 - Market category
-- Tone
-- Core idea
+- Tone (serious, playful, inspirational)
 - Emotional angle
+- Series branding
 
-## Core Logic
-Generate multiple title directions based on emotional tension, market positioning, and transformation promise.
+---
 
-## Rules
-- The title must be easy to remember
-- The title must imply transformation
-- The title should create curiosity
-- The subtitle must clarify the promise
-- Avoid generic business wording
+## Operating Rules
+- Title ≤ 7 words, easy to recall
+- Subtitle clarifies promise and scope
+- Avoid clichés and generic business jargon
+- Avoid abstract or academic phrasing
+- Ensure keyword relevance for Amazon SEO
+- Maintain consistency with series brand
+
+---
 
 ## Output
-- Main title
-- Subtitle
-- Alternative title variations
-- Series positioning angle
+- Main title (final candidate)
+- Subtitle (promise clarifier)
+- 3–5 alternative variations
+- Series positioning statement
+- Final recommended title set
 
-## Evaluation
-- Clarity score
-- Curiosity score
-- Market strength score
-- Brand compatibility score
+---
+
+## Quality Gates
+- ✅ Clear at first glance  
+- ✅ Promises meaningful transformation  
+- ✅ Strong commercial appeal for Amazon  
+- ✅ Fits series identity and tone  
+- ✅ Sounds original, credible, and memorable  
+
+---
+
+## Common Failure Modes
+- Overly generic phrasing ("Success Secrets", "Business Guide")  
+- Weak emotional resonance  
+- Abstract or academic wording  
+- Titles misaligned with actual content  
+- Inconsistent with series branding  
+
+---
+
+## Evaluation Checklist
+- Does the title contain a **keyword** readers search for?  
+- Does the subtitle **clarify the promise**?  
+- Is the emotional angle strong enough to trigger curiosity?  
+- Would a reader **click instantly** when seeing it on Amazon?  
+
+---
 
 ## Revision Notes
-A weak title weakens the entire book.
+A weak title undermines the entire book. Iterate until the title is:  
+- Clear  
+- Memorable  
+- Market‑ready  
+- Emotionally compelling
 
+
+<!-- 02_Outline_Engine.md -->
 # 02_Outline_Engine
 
-## Purpose
-Define the full structure of the book before writing starts.
+## Version
+v2.0
 
-## Inputs
+## Status
+Active
+
+## Purpose
+Design a **complete, transformation-driven book architecture** before writing begins.  
+The outline ensures clarity, progression, and reader retention.
+
+## Scope
+- Builds the logical skeleton of the book
+- Defines chapter sequence and purpose
+- Structures emotional and intellectual progression
+- Does not write prose or marketing copy
+
+## Receives From
 - Book idea
-- Target reader
-- Core promise
-- Market angle
-- Book title
+- Target reader profile
+- Core promise / transformation
+- Market positioning angle
+- Final or near-final title
+- Series context
+
+## Passes To
+- Writing Engine
+- Amazon Preview Engine
+- Marketing Controller
+
+---
 
 ## Core Logic
-Build a logical transformation journey for the reader from problem to outcome.
+1. **Transformation Journey** → Move reader from pain/problem to solution/outcome.  
+2. **Chapter Functionality** → Each chapter = one distinct step in the journey.  
+3. **Flow & Progression** → Order must feel inevitable, with no weak links.  
+4. **Retention Focus** → Structure designed to keep reader engaged until the end.  
+5. **Scalability** → Outline must support expansion into series or sequels.
 
-## Rules
-- No full prose writing
-- Only structural thinking
-- Each chapter must serve one transformation step
-- No repetition between chapters
-- Keep the structure clear and scalable
-
-## Output
-- Full chapter list
-- Chapter purpose for each chapter
-- Logical flow of progression
-- Final book skeleton
-
-## Evaluation
-- Flow quality
-- Structural clarity
-- Transformation consistency
-- Reader progression strength
-
-## Revision Notes
-The structure should feel inevitable and psychologically progressive.
-
-# 03_Cover_Engine
-
-## Purpose
-Create the cover direction and design brief for the book.
+---
 
 ## Inputs
-- Title
-- Subtitle
-- Genre
-- Target reader
-- Main promise
-- Market position
-
-## Core Logic
-Translate the book promise into a commercially attractive visual identity.
-
-## Rules
-- The cover must match the book promise
-- The cover must fit the market
-- Do not design randomly
-- Focus on clarity, authority, and commercial appeal
-
-## Output
-- Cover concept
-- Visual direction
-- Color direction
-- Typography direction
-- Front cover brief
-- Back cover direction
-- Design prompt if needed
-
-## Evaluation
-- Visual clarity
-- Market fit
-- Thumbnail readability
-- Authority perception
-
-## Revision Notes
-The cover should communicate value before the reader opens the book.
-
-# 04_Keywords_Engine
-
-## Purpose
-Generate and manage keyword strategy for Amazon KDP discoverability.
-
-## Inputs
-- Book title
-- Subtitle
-- Core idea
-- Reader type
-- Category
-- Market angle
-
-## Core Logic
-Identify commercially relevant search behavior and buyer intent.
-
-## Rules
-- Keywords must match the book content
-- Avoid irrelevant search terms
-- Focus on buyer intent
-- Keep the set commercially useful
-
-## Output
-- Primary keyword
-- Secondary keywords
-- Search phrases
-- Backend keyword set
-- Category suggestions
-
-## Evaluation
-- Search relevance
-- Competition strength
-- Buyer intent quality
-- Category alignment
-
-## Revision Notes
-Good keywords improve discoverability, not just traffic.
-
-# 05_Writing_Engine
-
-## Purpose
-Generate high-retention, high-density book content aligned with the series philosophy.
-
-## Inputs
-- Chapter goal
-- Reader transformation
-- Tone
-- Framework
-- Core argument
-
-## Core Logic
-Build addictive, structured, insight-dense writing that balances philosophy, practicality, and momentum.
-
-## Rules
-- Use strong opening hooks
-- Use contrarian insights when relevant
-- Include micro-scenarios
-- Keep paragraphs concise
-- Prioritize intellectual compression
-- End chapters with architectural principles
-
-## Output
-- Chapter draft
-- Hooks
-- Framework sections
-- Micro-scenarios
-- Quote-worthy lines
-- Closing principle
-
-## Evaluation
-- Retention strength
-- Clarity
-- Signal density
-- Quote potential
-- Reader momentum
-
-## Revision Notes
-The writing must feel fast, dense, intelligent, and scalable.
-
-# 06_Description_Engine
-
-## Purpose
-Generate commercially optimized Amazon book descriptions.
-
-## Inputs
-- Book title
-- Core promise
-- Reader pain
-- Transformation outcome
+- Book topic / niche
+- Reader pain points
+- Desired transformation
 - Market category
+- Emotional progression (fear → hope → clarity → empowerment)
+- Series branding and context
 
-## Core Logic
-Convert curiosity and pain into desire and purchase intent.
+---
 
-## Rules
-- Start with a strong hook
-- Focus on transformation
-- Avoid bloated language
-- Maintain high readability
-- Balance authority and accessibility
+## Operating Rules
+- No prose writing, only structural design
+- Each chapter = one transformation step
+- No repetition or overlap between chapters
+- Maintain strong logical and emotional flow
+- Ensure progression feels inevitable and compelling
+- Keep outline scalable for sequels or spin-offs
 
-## Output
-- Short description
-- Long description
-- Hook section
-- Reader promise
-- Call to action
-
-## Evaluation
-- Emotional pull
-- Clarity
-- Conversion potential
-- Readability
-
-## Revision Notes
-The description should sell transformation, not information.
-
-# 07_Author_Intro_Engine
-
-## Purpose
-Create the author introduction and front-facing identity of the book.
-
-## Inputs
-- Author positioning
-- Series philosophy
-- Reader expectations
-- Book purpose
-
-## Core Logic
-Establish trust, authority, and alignment with the reader.
-
-## Rules
-- Keep the tone authentic
-- Focus on relevance
-- Avoid exaggerated credibility claims
-- Build immediate connection
+---
 
 ## Output
-- Short author bio
-- Long author bio
-- Introduction section
-- Why this book exists
-- Reader alignment message
+- Full chapter list (ordered)
+- Chapter purpose (1–2 lines each)
+- Logical progression map
+- Part/section structure if needed
+- Final book skeleton ready for writing
 
-## Evaluation
-- Trust level
-- Relevance
-- Authority perception
-- Reader connection
+---
 
-## Revision Notes
-The introduction should make the reader trust the journey.
+## Quality Gates
+- ✅ Logical progression from start to finish  
+- ✅ Each chapter has unique, non-overlapping function  
+- ✅ Flow is strong and emotionally engaging  
+- ✅ Outline matches book promise and market angle  
+- ✅ Structure supports high reader retention  
 
-# 08_Amazon_Preview_Engine
+---
 
-## Purpose
-Optimize the first visible pages of the book for Amazon preview conversion.
+## Common Failure Modes
+- Repeated ideas across chapters  
+- Weak or confusing chapter order  
+- No clear transformation logic  
+- Too many disconnected sections  
+- Generic or shallow structure  
+- Lack of psychological/emotional progression  
 
-## Inputs
-- Introduction
-- Opening chapter
-- Front matter
-- Hook sections
+---
 
-## Core Logic
-Maximize retention and curiosity within the first visible pages.
+## Evaluation Checklist
+- Does the outline **mirror the reader’s journey** from problem to solution?  
+- Does each chapter **add unique value**?  
+- Is the emotional arc strong (pain → hope → clarity → empowerment)?  
+- Would a reader feel **compelled to continue** at each stage?  
+- Does the structure align with Amazon category expectations?  
 
-## Rules
-- The opening must create momentum
-- Avoid slow introductions
-- Build immediate relevance
-- Maintain psychological tension
-
-## Output
-- Optimized opening pages
-- Preview flow structure
-- First chapter opening
-- Sample-page sequence
-
-## Evaluation
-- Hook survival strength
-- Reader retention
-- Curiosity intensity
-- Momentum quality
+---
 
 ## Revision Notes
-The preview must create continuation pressure.
+A weak outline produces a weak book. Refine until:  
+- The journey feels inevitable  
+- Each chapter is indispensable  
+- The skeleton is clear, memorable, and market-ready
 
-# 09_Marketing_Controller
 
-## Purpose
-Evaluate the commercial and strategic quality of the entire book system.
-
-## Inputs
-- Title
-- Outline
-- Cover
-- Keywords
-- Writing
-- Description
-- Preview pages
-
-## Core Logic
-Audit every layer of the book for market strength, positioning, and scalability.
-
-## Rules
-- Evaluate objectively
-- Prioritize commercial viability
-- Identify weak structural points
-- Maintain brand consistency
-
-## Output
-- Title evaluation
-- Cover evaluation
-- Keyword evaluation
-- Writing evaluation
-- Market fit score
-- Weakness report
-- Final verdict
-
-## Evaluation
-- Commercial strength
-- Brand consistency
-- Reader alignment
-- Scalability potential
-
-## Revision Notes
-A strong system compounds across every layer.
-
-# 10_Formatting_Engine
-
-## Purpose
-Prepare the book for professional publishing and reader-friendly formatting.
-
-## Inputs
-- Manuscript
-- Front matter
-- Back matter
-- Chapter structure
-
-## Core Logic
-Create clean, readable, commercially professional formatting.
-
-## Rules
-- Maintain visual consistency
-- Keep spacing readable
-- Use clear hierarchy
-- Optimize for Kindle readability
-
-## Output
-- Chapter formatting
-- Front matter structure
-- Back matter structure
-- Export-ready formatting
-- Final formatting checklist
-
-## Evaluation
-- Readability
-- Visual consistency
-- Formatting cleanliness
-- Publishing readiness
-
-## Revision Notes
-Professional formatting increases perceived authority and trust.
 
