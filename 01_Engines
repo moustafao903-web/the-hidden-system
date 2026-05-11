@@ -54,3 +54,30 @@ Create the cover direction and cover brief for the book.
 - Focus on clarity, authority, and commercial appeal
 
 01_Engines/04_Keywords_Engine.md
+# 04_Keywords_Engine
+
+## Purpose
+Generate and manage keyword strategy for KDP discoverability.
+
+## Inputs
+- Book title
+- Subtitle
+- Core idea
+- Reader type
+- Category
+- Market angle
+
+## Output
+- Primary keyword
+- Secondary keywords
+- Search phrases
+- Backend keyword set
+- Category suggestions
+
+## Rules
+- Keywords must match the book content
+- Avoid irrelevant search terms
+- Focus on buyer intent
+- Keep the set commercially useful
+
+
