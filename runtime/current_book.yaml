@@ -1,18 +1,100 @@
+# ======================================================================
+# CURRENT BOOK RUNTIME™
+# ======================================================================
+
+project:
+  active: true
+  execution_id: leverage_economy_v1
+  status: active
+
 book:
-  title: THE LEVERAGE ECONOMY
-  subtitle: How AI and Small Systems Let One Person Produce Massive Results
+  title: "THE LEVERAGE ECONOMY™"
+  subtitle: "How AI and Small Systems Let One Person Produce Massive Results"
 
-reader:
-  archetype: Advanced Solopreneur
-  pain:
-    - growth fatigue
-    - time bottleneck
-    - operational overload
-
-market:
-  angle: AI-Driven Leverage Architecture
-  category: Business / Systems / AI
+author:
+  name: "Dr. Omar Moustafa"
 
 series:
-  name: The Hidden System
+  enabled: true
+  name: "The Hidden System™"
   volume: 3
+  arc_position: "Execution Layer"
+
+reader:
+  archetype: "Advanced Solopreneur"
+  
+  psychology:
+    ambitions:
+      - freedom
+      - leverage
+      - scalability
+      - independence
+
+    frustrations:
+      - time bottleneck
+      - operational chaos
+      - growth fatigue
+      - linear income
+
+    fears:
+      - becoming busy but not free
+      - building another job instead of a system
+
+market:
+  category:
+    primary: "Business & Money"
+    secondary: "Artificial Intelligence"
+    tertiary: "Entrepreneurship"
+
+  positioning:
+    core_angle: "AI-Driven Leverage Architecture"
+    differentiation: "System-Level Wealth Engineering"
+
+  competitors:
+    avoid:
+      - generic productivity books
+      - motivational entrepreneurship
+      - AI tool tutorials
+
+promise:
+  transformation:
+    from: "Linear effort-based income"
+    to: "AI-powered scalable leverage systems"
+
+  core_promise: >
+    Transform one person's output capacity into a scalable
+    system capable of generating disproportionate results
+    using AI and small operational architectures.
+
+tone:
+  style:
+    - intelligent
+    - dense
+    - philosophical
+    - practical
+    - commercially sharp
+
+branding:
+  visual_identity:
+    aesthetic: "Minimalist Architectural Intelligence"
+    authority_level: high
+
+runtime:
+  current_engine: "Cover Engine"
+  previous_engine: "Outline Engine"
+  next_engine: "Keywords Engine"
+
+  revision_mode: false
+  stability_score: 92
+
+memory:
+  preserve:
+    - positioning
+    - emotional tone
+    - reader psychology
+    - transformation promise
+    - series consistency
+
+# ======================================================================
+# END OF RUNTIME
+# ======================================================================
