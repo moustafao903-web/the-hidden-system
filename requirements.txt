@@ -5,3 +5,4 @@ pyyaml
 pydantic
 jinja2
 python-dotenv
+pip install -r requirements.txt
